@@ -406,6 +406,8 @@ main {
   display: block;
   overflow: hidden;
   height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .maincontent .card1 img {
@@ -448,6 +450,11 @@ main {
   background: #ff9101;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 145, 1, 0)), to(#ff9101));
   background: linear-gradient(180deg, rgba(255, 145, 1, 0), #ff9101);
+}
+
+.maincontent .card1:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
 }
 
 .maincontent .small .text {
