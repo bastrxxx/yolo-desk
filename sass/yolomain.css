@@ -233,7 +233,6 @@ main {
   position: relative;
   overflow: hidden;
   background-size: contain;
-  /*========GAME INFO======================*/
 }
 
 .header .navbar {
@@ -328,12 +327,20 @@ main {
   background-color: #ffd200;
 }
 
-.header .gameinfo {
+.allcontent {
+  -webkit-box-shadow: 0px 0px 15px #6262623d;
+          box-shadow: 0px 0px 15px #6262623d;
+  display: table;
+  margin: 0 auto;
+}
+
+/*========GAME INFO======================*/
+.gameinfo {
   position: relative;
   width: 100%;
 }
 
-.header .gameinfo .info {
+.gameinfo .info {
   position: absolute;
   top: 0;
   height: 100%;
@@ -342,12 +349,12 @@ main {
   background: rgba(46, 46, 46, 0.795);
 }
 
-.header .gameinfo .info .infomain {
+.gameinfo .info .infomain {
   height: 100%;
   overflow: hidden;
 }
 
-.header .gameinfo .info .infomain .title {
+.gameinfo .info .infomain .title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -357,7 +364,7 @@ main {
           align-items: center;
 }
 
-.header .gameinfo .info .infomain .title h3 {
+.gameinfo .info .infomain .title h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
@@ -534,8 +541,6 @@ main {
 
 .contentgame {
   background-color: var(--whitecolor);
-  -webkit-box-shadow: 0px 0px 15px #6262623d;
-          box-shadow: 0px 0px 15px #6262623d;
 }
 
 .contentgame .title {
