@@ -420,14 +420,14 @@ main {
   position: absolute;
   width: 100%;
   bottom: 0;
-  height: 30%;
+  height: 100%;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
@@ -435,21 +435,23 @@ main {
   color: #fff;
   padding-left: 2rem;
   font-weight: 700;
-  background: #ff4d4b;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff4d4b), to(rgba(255, 77, 75, 0)));
-  background: linear-gradient(0deg, #ff4d4b 0%, rgba(255, 77, 75, 0) 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff4d4b), color-stop(40%, rgba(255, 77, 75, 0)), to(rgba(255, 77, 75, 0)));
+  background: linear-gradient(0deg, #ff4d4b 0%, rgba(255, 77, 75, 0) 40%, rgba(255, 77, 75, 0) 100%);
   text-shadow: 0px 0px 9px #000;
+  z-index: 5;
+  line-height: 3;
 }
 
 .maincontent .card1 .bgblue {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(98, 131, 203, 0)), to(#6283cb));
-  background: linear-gradient(180deg, rgba(98, 131, 203, 0), #6283cb);
+  background: #6283cb;
+  background: -webkit-gradient(linear, left bottom, left top, from(#6283cb), color-stop(40%, rgba(98, 131, 203, 0)), to(rgba(98, 131, 203, 0)));
+  background: linear-gradient(0deg, #6283cb 0%, rgba(98, 131, 203, 0) 40%, rgba(98, 131, 203, 0) 100%);
 }
 
 .maincontent .card1 .bgorange {
   background: #ff9101;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 145, 1, 0)), to(#ff9101));
-  background: linear-gradient(180deg, rgba(255, 145, 1, 0), #ff9101);
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff9101), color-stop(40%, rgba(255, 145, 1, 0)), to(rgba(255, 145, 1, 0)));
+  background: linear-gradient(0deg, #ff9101 0%, rgba(255, 145, 1, 0) 40%, rgba(255, 145, 1, 0) 100%);
 }
 
 .maincontent .card1:hover {
