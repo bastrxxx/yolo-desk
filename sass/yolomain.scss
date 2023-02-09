@@ -20,7 +20,7 @@ $fontfam: 'Roboto', Roboto, sans-serif;
 .gold {color: var(--color1) !important;}
 .blue {color: var(--colorlink) !important;}
 .main {color: var(--color1) !important;}
-body {font-family: $fontfam;font-size: 14px;font-weight: 400;color: var(--whitecolor);background-color:#e2f4ff;}
+body {font-family: $fontfam;font-size: 14px;font-weight: 400;color: var(--whitecolor);background: url(../images/bg-tc2.jpg) no-repeat bottom center;background-color:#e2f4ff;}
 .ttsk{background-image:none;background-color: #e9ebed;}
 * {outline: none;box-sizing: border-box;padding: 0;margin: 0;}
 a {text-decoration: none;transition: all 0.3s ease-in-out;}
@@ -29,7 +29,7 @@ a:hover {text-decoration: none;}
 main {position: relative;height: 100vh;}
 .container{max-width: 1200px;}
 .wrapper {margin: 0 auto;position: relative;width:100%;overflow: hidden;}
-#layout{width: 1920px;height:auto;transform-origin: top left;overflow: hidden;}
+#layout{width: 1920px;height:auto;transform-origin: top left;overflow: hidden;margin: 0 auto;}
 .tren18{position: absolute;z-index: 10;left:0;top:317px;}
 
 
@@ -99,7 +99,7 @@ main {position: relative;height: 100vh;}
     .btnadd{position: absolute;right: 0;width: 23px;height: 23px;background:#666565;color: #fff;text-align: center;top: 50%;transform: translateY(-50%);}
   }
   .card1{border-radius: 30px;position: relative;display: block;overflow: hidden;height: 100%;transition: all 0.3s ease-in-out;
-    img{display: block;height: 100%;width: 100%;}
+    img{display: block;height: 100%;width: 100%;object-fit: cover;}
     .text{position: absolute;width: 100%;bottom: 0;height:100%;text-align: center;display: flex;align-items: flex-end;justify-content: start;font-size: 32px;color: #fff;padding-left: 2rem;font-weight: 700;background: linear-gradient(0deg, rgba(255,77,75,1) 0%, rgba(255,77,75,0) 40%, rgba(255,77,75,0) 100%);text-shadow:0px 0px 9px #000;z-index: 5;line-height: 3;}
     .bgblue{background: rgb(98,131,203);background: linear-gradient(0deg, rgba(98,131,203,1) 0%, rgba(98,131,203,0) 40%, rgba(98,131,203,0) 100%);}
     .bgorange{background: rgb(255,145,1);background: linear-gradient(0deg, rgba(255,145,1,1) 0%, rgba(255,145,1,0) 40%, rgba(255,145,1,0) 100%);}
